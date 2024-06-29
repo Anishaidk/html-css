@@ -1,0 +1,14 @@
+div{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    /* background-color: red; */
+    border-radius: 50%;
+    border: 10px solid rgb(119, 155, 164);
+    border-top: 10px solid rgb(216, 222, 218);
+   animation: loader 3s linear 1s infinite normal ;
+}
+@keyframes loader{
+    from{ transform: rotate(0deg);}
+    to{ transform: rotate(360deg);}
+}

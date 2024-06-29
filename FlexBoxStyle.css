@@ -1,0 +1,51 @@
+body{
+    text-align: center; 
+    /* text-align center makes everything written inside the body as center aligned */
+    font-size: 30px;
+    font-weight: bolder;
+    font-family:cursive;
+}
+div{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+}
+.container{
+    height: 1500px;
+    width: 2000px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+  flex-wrap: nowrap;
+  align-items:flex-start;
+    justify-content: center;
+}
+.box1{
+border: 2px black solid;
+background-color: #7f5539;
+flex-shrink:  1;
+}
+.box2{
+
+    border: 2px solid black;
+    background-color: #b08968;
+    flex-shrink:2;
+}
+.box3{
+
+    border: 2px solid black;
+    background-color: #ddb892;
+    flex-shrink:3;
+}
+.box4{
+
+    border: 2px solid black;
+    background-color: #e6ccb2;
+    align-self: flex-start;
+    flex-shrink: 4;
+}
+.box5{
+    border: 2px solid black;
+    background-color:#fef5ea;
+    flex-shrink: 1; 
+}

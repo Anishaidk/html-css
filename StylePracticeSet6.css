@@ -1,0 +1,29 @@
+ul{
+    background: #3498db;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+li{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    border-top: 1.5px solid #3498db;
+    color: black;
+    background-color: white;
+}
+.outer{
+    height: 300px;
+    width: 300px;
+    background-color: darkorange;
+    display: flex;
+    justify-content: center;
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(249, 233, 4);
+    display: inline;
+    align-self: center;
+}
